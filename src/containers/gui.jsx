@@ -110,6 +110,8 @@ class GUI extends React.Component {
                 {...componentProps}
             >
                 {children}
+                <ProgressChecker vm={this.props.vm} />
+
             </GUIComponent>
         );
     }
