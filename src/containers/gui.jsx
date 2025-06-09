@@ -1,3 +1,4 @@
+import ProgressChecker from '../components/ProgressChecker.jsx';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {compose} from 'redux';
